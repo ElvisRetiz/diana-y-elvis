@@ -146,6 +146,7 @@ label {
     align-items: center;
     width: 100%;
     margin-bottom: 8rem;
+    margin-top: -1rem;
 }
 
 .detalles-container-hr {
