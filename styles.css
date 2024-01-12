@@ -217,6 +217,17 @@ label {
     text-align: start;
 }
 
+.sobre-ejemplo-img {
+    position: absolute;
+    background-color: white;
+    padding: 1rem;
+    height: 15rem !important;
+    margin: 0 !important;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
 .music-selection-container {
     display: flex;
     justify-content: center;
@@ -316,6 +327,13 @@ label {
     text-align: start;
 }
 
+.consideracion-container-txt>strong {
+    background-color: #09162B;
+    color: white;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
 .camino-linea {
     background-color: white;
     width: 10px;
@@ -330,6 +348,10 @@ label {
     right: 0;
     margin-right: 2rem;
     animation: scrollanim 5s linear 0s 1 normal forwards;
+}
+
+.close-img {
+    visibility: hidden;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {

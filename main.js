@@ -9,6 +9,8 @@ const videoBtn = document.querySelector("#invitation-video-btn")
 const letsRockImg = document.querySelector("#lets-rock")
 const form = document.forms["music-selection-form"]
 const scrollIcon = document.getElementById("scroll-icon-id")
+const verEjemploBtn = document.getElementById("ejemplo-sobre")
+const verEjemploImg = document.getElementById("sobre-ejemplo-id")
 let fullscreen = false
 let posicionScrollAnterior = window.scrollY
 let alturaInicial = 0.032
@@ -55,9 +57,19 @@ async function handleSubmit(event) {
     }
 }
 
+function handleEjemplo() {
+    verEjemploImg.classList.remove("close-img")
+}
+
+function handleCloseEjemplo() {
+    verEjemploImg.classList.add("close-img")
+}
+
 window.onload = getDaysUntilWedding;
 videoBtn.addEventListener("click", playVideoInvitation)
 video.onfullscreenchange = handleExitFullscreen
 video.addEventListener("ended", () => video.classList.add("video-display"))
 video.addEventListener("pause", () => video.classList.add("video-display"))
 form.addEventListener('submit', handleSubmit)
+verEjemploBtn.addEventListener("click", handleEjemplo)
+verEjemploImg.addEventListener("click", handleCloseEjemplo)
