@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url('./assets/fonts/Champagne\ &\ Limousines.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Pink Diary';
+    src: url('./assets/fonts/Pink\ Diary\ -\ Personal\ Use.otf');
+    font-style: normal;
+    font-weight: normal;
+}

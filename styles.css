@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    height: 0;
+}
+
+p,
+label {
+    font-family: 'Champagne & Limousines';
+    color: white;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url("./assets/main-1.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main h1 {
+    font-family: 'Pink Diary';
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-size: 3.5rem;
+    color: #09162B;
+}
+
+.main h3 {
+    font-family: 'Champagne & Limousines';
+    margin: 0;
+    margin-bottom: 2rem;
+    color: #09162B;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    color: #09162B;
+}
+
+.countdown>img {
+    margin-right: 1rem;
+    width: 4rem;
+}
+
+.video-button {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.video-button>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09162B;
+    border-radius: 2rem;
+    height: 90%;
+    width: 30%;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.video-button>div>img {
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.video-button>p {
+    margin: 0;
+}
+
+.video-display {
+    display: none;
+}
+
+.second {
+    background-color: #09162B;
+    background-image: url("./assets/invitacion\ background.png");
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    z-index: -9999999;
+}
+
+.detalles-txt {
+    font-family: 'Pink Diary';
+    font-weight: normal !important;
+    font-size: xx-large;
+    margin-top: 5rem;
+}
+
+.main-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    width: 60%;
+    margin-bottom: 10rem;
+    box-sizing: border-box;
+}
+
+.main-hero>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.main-hero>div>img {
+    height: 1.5rem;
+}
+
+.main-hero>div>p {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: large;
+}
+
+.detalles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.detalles-container-hr {
+    font-family: 'Pink Diary';
+    margin-right: 1rem;
+    font-size: xx-large;
+}
+
+.detalles-container>img {
+    height: 8.5rem;
+    z-index: 2;
+}
+
+.detalles-container-txt {
+    margin-left: 1rem;
+    width: 17.7%;
+    text-align: start;
+    font-size: large;
+    font-weight: bold;
+}
+
+.finish-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.finish-container-img {
+    width: 45%;
+    /*background-color: white;
+    padding: 0.05rem;*/
+    border-radius: 100%;
+}
+
+.regalo-intencion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 8rem;
+    padding: 1rem;
+}
+
+.regalo-intencion-title {
+    color: #09162B;
+    font-family: 'Pink Diary';
+    font-size: xx-large;
+    margin: 0;
+}
+
+.regalo-intencion>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.regalo-intencion>img {
+    height: 5rem;
+    margin-right: 1.5rem;
+}
+
+.regalo-intencion>div>p {
+    color: #09162B;
+    text-align: start;
+}
+
+.music-selection-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 11rem;
+    padding-bottom: 8rem;
+}
+
+.music-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    padding: 2rem;
+    padding-top: 2rem;
+    color: #09162B;
+}
+
+.music-form p {
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #09162B;
+}
+
+.music-form input {
+    border-radius: 0;
+    border: solid 1px #283b56;
+}
+
+.lets-rock-img {
+    position: absolute;
+    height: 11rem;
+    top: -9rem;
+    left: 15%;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+    border-radius: 0;
+    border: none;
+    height: 2rem;
+    background-color: #283b56;
+    color: white;
+    font-family: inherit;
+}
+
+.footer-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    color: white;
+    background-color: #09162B;
+    z-index: 999999999999999999;
+}
+
+.animation-send {
+    animation: shake 3s;
+}
+
+.consideraciones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 6rem;
+}
+
+.consideracion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.consideracion-container-img {
+    margin-right: 1rem;
+    width: 4rem;
+}
+
+.consideracion-container-txt,
+.consideraciones-container-txt {
+    color: #09162B;
+    font-weight: bold;
+}
+
+.consideraciones-container-txt {
+    font-size: 2rem;
+}
+
+.consideracion-container-txt {
+    text-align: start;
+}
+
+.camino-linea {
+    background-color: white;
+    width: 10px;
+    height: 9rem;
+    margin-top: -9rem;
+    z-index: 1;
+}
+
+.scroll-icon {
+    position: absolute;
+    height: 6rem;
+    right: 0;
+    margin-right: 2rem;
+    animation: scrollanim 5s linear 0s 1 normal forwards;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    select:focus,
+    textarea:focus,
+    input:focus {
+        font-size: 16px;
+    }
+}
